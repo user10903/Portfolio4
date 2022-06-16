@@ -9,14 +9,12 @@ public class SquareTest {
 	@Test
 	public void testLength() {
 		Square r = new Square(5,5);	
-		r.setLength(2);
-		assertEquals(2,r.getLength());
+		assertEquals(5,r.getLength());
 	}
 	
 	@Test
 	public void testWidth() {
 		Square r = new Square(5,5);	
-		r.setWidth(5);
 		assertEquals(5,r.getWidth());
 	}
 	
